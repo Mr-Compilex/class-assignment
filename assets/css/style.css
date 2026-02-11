@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    color: #0d6efd !important;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    border-radius: 8px;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px 20px;
+}
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 60px 0;
+    margin-top: 50px;
+}
+.footer h5 {
+    color: white;
+    margin-bottom: 20px;
+}
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer a:hover {
+    color: white;
+}
